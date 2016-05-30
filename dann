@@ -1,0 +1,64 @@
+#include <iostream>
+#include <string.h>
+Using namespace std;
+Int main() {
+Cout<<”Carga tus notas y calcula tu promedio”<<endl;
+Cout<<”Ingrese nombre:”; 
+String nombre;
+Cin>>nombre;
+Cout<<”Apellido:”<<endl;
+String apellido;
+Cin>>apellido;
+Cout<<”ingrese notas:”<<endl;
+Cout<<”Nota 1:”<<endl;
+Float n1;
+Cin>>n1;
+Cout<<”Nota 2:”<<endl;
+Float n2;
+Cin >>n2;
+Cout<<”Nota 3:”<<endl;
+Float n3;
+Cin>> n3
+Cout<<”Nota 4:”<<endl;
+Float n4;
+Cin>>n4;
+Cout<<”nota 5:”<<endl;
+Float n5;
+Cin>>n5;
+Cout<<”Nota 6:”<<endl;
+Float n6;
+Cin>>n6;
+Cout<< el promedio calculado con las notas ingresadas es de:”<<n1+n2+n3+n4+n5+n6*6/100<<endl;
+Cout<<”¿Desea agregar otro alumno? Si/no”<<endl;
+String resp;
+Cin>>resp;
+If (resp==si) {
+Cout<<”Ingrese nombre:”; 
+String nombre1;
+Cin>>nombre1;
+Cout<<”Apellido:”<<endl;
+String apellido1;
+Cin>>apellido1;
+Cout<<”ingrese notas:”<<endl;
+Cout<<”Nota 1:”<<endl;
+Float no1;
+Cin>>no1;
+Cout<<”Nota 2:”<<endl;
+Float no2;
+Cin >>no2;
+Cout<<”Nota 3:”<<endl;
+Float no3;
+Cin>> no3
+Cout<<”Nota 4:”<<endl;
+Float no4;
+Cin>>no4;
+Cout<<”nota 5:”<<endl;
+Float no5;
+Cin>>no5;
+Cout<<”Nota 6:”<<endl;
+Float no6;
+Cin>>no6;
+Cout<<”el promedio calculado con las notas ingresadas es de:”<<no1+no2+no3+no4+no5+no6*6/100<<endl;
+}
+}
+
